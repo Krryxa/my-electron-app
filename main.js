@@ -18,6 +18,7 @@ const createWindow = () => {
 
   // 加载 index.html
   mainWindow.loadFile('index.html')
+  // mainWindow.loadURL('https://ainyi.com')
 
   // 打开开发工具
   // mainWindow.webContents.openDevTools()
